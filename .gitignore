@@ -1,0 +1,52 @@
+# Client Data - NEVER COMMIT
+*.pdf
+*.xlsx
+*.xls
+*.csv
+*.docx
+*.doc
+*.pptx
+*.ppt
+data/
+client-data/
+raw-data/
+
+# Credentials and secrets
+.env
+.env.*
+*.key
+*.pem
+credentials.*
+secrets.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+ENV/
+
+# Node
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temp files
+*.tmp
+*.temp
+~$*
